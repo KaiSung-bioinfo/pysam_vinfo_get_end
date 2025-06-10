@@ -4,6 +4,13 @@ A simple Cython module to retrieve the 'END' value from the INFO field of a VCF 
 
 This could be useful for structural variation VCFs where `record.stop` may not directly correspond to the INFO/END tag.
 
+## Dependencies
+
+This module requires the following Python packages:
+- `pysam`
+- `cython` (for building from source)
+- `pyximport` (if you want to import the module on-the-fly)
+
 ## Installation
 
  1. Install using pip:
@@ -13,6 +20,7 @@ This could be useful for structural variation VCFs where `record.stop` may not d
     cd pysam_vinfo_get_end
     pip install .
     ```
+
 2. Import on-the-fly using the pyximport module:
     
     **Note:** You should have pysam_vinfo_get_end.pyx and pysam_vinfo_get_end.pyxbld in current home directory

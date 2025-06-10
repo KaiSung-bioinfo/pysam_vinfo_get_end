@@ -9,6 +9,8 @@ This could be useful for structural variation VCFs where `record.stop` may not d
  1. Install using pip:
 
     ```bash
+    git clone https://github.com/KaiSung-bioinfo/pysam_vinfo_get_end.git
+    cd pysam_vinfo_get_end
     pip install .
     ```
 2. Import on-the-fly using the pyximport module:

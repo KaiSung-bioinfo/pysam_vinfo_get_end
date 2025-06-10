@@ -45,4 +45,3 @@ if end_pos is not None:
     print(f"Variant at {record.chrom}:{record.pos} has END={end_pos}")
 else:
     print(f"Variant at {record.chrom}:{record.pos} has no END in INFO field")
-```

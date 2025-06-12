@@ -11,7 +11,8 @@ This module requires the following Python packages:
 - `cython` (for building from source)
 - `pyximport` (if you want to import the module on-the-fly)
 
-## Installation
+## Installation or importing on-the-fly
+
 
  1. Install using pip:
 
